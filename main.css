@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+  background-image: url("https://betanews.com/wp-content/uploads/2018/11/windowslight1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  align-items: center;
+}
+
+.spacer {
+  width: 16px;
+  height: 100%;
+  position: relative;
+}
+
+.clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 140px);
+  flex: 1;
+}
+
+.hand {
+  width: 50%;
+  height: 6px;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.clock-face {
+  height: 20rem;
+  width: 20rem;
+  border: 20px solid white;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.hours-face-1 {
+  font: 26px Monaco, MonoSpace;
+  position: absolute;
+  transform: rotate(120deg);
+  width: 100%;
+}
+
+.hours-face-2 {
+  font: 26px Monaco, MonoSpace;
+  position: absolute;
+  transform: rotate(150deg);
+  width: 100%;
+}
+
+.hours-face-3 {
+  font: 26px Monaco, MonoSpace;
+  position: absolute;
+  transform: rotate(180deg);
+  width: 100%;
+  color: red;
+}
+
+.hours-face-4 {
+  font: 26px Monaco, MonoSpace;
+  position: absolute;
+  transform: rotate(210deg);
+  width: 100%;
+}
+
+.hours-face-5 {
+  font: 26px Monaco, MonoSpace;
+  position: absolute;
+  transform: rotate(240deg);
+  width: 100%;
+}
+
+.hours-face-6 {
+  font: 26px Monaco, MonoSpace;
+  position: absolute;
+  transform: rotate(270deg);
+  width: 100%;
+  color: red;
+}
+
+.hours-face-7 {
+  font: 26px Monaco, MonoSpace;
+  position: absolute;
+  transform: rotate(300deg);
+  width: 100%;
+}
+
+.hours-face-8 {
+  font: 26px Monaco, MonoSpace;
+  position: absolute;
+  transform: rotate(330deg);
+  width: 100%;
+}
+
+.hours-face-9 {
+  font: 26px Monaco, MonoSpace;
+  position: absolute;
+  transform: rotate(360deg);
+  width: 100%;
+  color: red;
+}
+
+.hours-face-10 {
+  font: 26px Monaco, MonoSpace;
+  position: absolute;
+  transform: rotate(390deg);
+  width: 100%;
+}
+
+.hours-face-11 {
+  font: 26px Monaco, MonoSpace;
+  position: absolute;
+  transform: rotate(420deg);
+  width: 100%;
+}
+
+.hours-face-12 {
+  font: 26px Monaco, MonoSpace;
+  position: absolute;
+  transform: rotate(450deg);
+  width: 100%;
+  color: red;
+}
